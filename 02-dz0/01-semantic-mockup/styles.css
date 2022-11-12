@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+    line-height: 50px;
+}
+
+.title {
+    background: #F03D3E;
+}
+
+nav {
+    background: yellowgreen;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background: green;
+}
+
+article {
+    padding: 25px;
+    background: blue;
+}
+
+footer {
+    background: darkcyan;
+}
