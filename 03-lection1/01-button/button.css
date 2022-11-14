@@ -1,1 +1,60 @@
-/* Стилизация кнопки */
+@import url(../../assets/css/main.css);
+@import url(../../assets/css/normalize.css);
+
+.button {
+    display: inline-block;
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+
+}
+
+.button__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.button__primary {
+    background: var(--blue-1);
+}
+
+.button__primary:hover:enabled {
+    background: var(--blue-2);
+    cursor: pointer;
+}
+
+.button__secondary {
+    background: var(--purple);
+}
+
+.button__secondary:hover:enabled {
+    background: var(--purple-2);
+    cursor: pointer;
+}
+
+.button__alternate {
+    background: var(--white);
+    border: 1px solid var(--grey-4);
+}
+
+.button__text_alternate {
+    color: var(--grey-5);
+}
+
+.button__alternate:hover:enabled {
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
+.button:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
