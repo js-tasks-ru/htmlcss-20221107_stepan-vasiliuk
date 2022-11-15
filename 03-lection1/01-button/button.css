@@ -1,14 +1,12 @@
 
 .button {
     display: inline-block;
-    /*width: 189px;*/
     height: 48px;
     border-radius: 8px;
     border: 0;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
 
-    padding-top: 15px;
-    padding-bottom: 14px;
+    padding: 15px 65px 14px 66px;
 
     font-family: Roboto;
     font-style: normal;
@@ -19,21 +17,9 @@
     color: var(--white);
 }
 
-/*.button__text {*/
-/*    font-family: Roboto;*/
-/*    font-style: normal;*/
-/*    font-weight: 500;*/
-/*    font-size: 16px;*/
-/*    line-height: 19px;*/
-/*    text-align: center;*/
-/*    color: var(--white);*/
-
-/*}*/
 
 .button_primary {
     background: var(--blue-1);
-    padding-left: 66px;
-    padding-right: 65px;
 }
 
 .button_primary:hover:enabled {
@@ -43,8 +29,6 @@
 
 .button_secondary {
     background: var(--purple);
-    padding-left: 56px;
-    padding-right: 57px;
 }
 
 .button_secondary:hover:enabled {
@@ -55,8 +39,6 @@
 .button_alternate {
     background: var(--white);
     border: 1px solid var(--grey-4);
-    padding-left: 61px;
-    padding-right: 62px;
     color: var(--grey-5);
 }
 
