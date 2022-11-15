@@ -8,9 +8,9 @@
 }
 
 .item__summary {
-    display: inline-block;
-    margin-left: 32px;
-    margin-top: 24px;
+    padding-left: 32px;
+    padding-top: 24px;
+    /*display: inline;*/
     width: 158px;
     height: 24px;
     font-family: 'Inter', serif;
@@ -22,18 +22,20 @@
 }
 
 .item__text {
-    margin-left: 32px;
-    margin-bottom: 32px;
-    margin-right: 48px;
+    margin: 0;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
+    padding: 16px 49px 32px 32px;
 }
 
 .item[open] {
-    width: 730px;
     min-height: 144px;
+}
+
+.item__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
 }
