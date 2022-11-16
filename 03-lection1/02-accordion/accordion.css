@@ -1,16 +1,23 @@
-.item {
+.accordion{
+    width: 730px;
+}
+.accordion__item {
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    width: 730px;
-    height: 72px;
+
     background: var(--white);
     margin-bottom: 8px;
-}
 
-.item__summary {
     padding-left: 32px;
     padding-top: 24px;
-    /*display: inline;*/
+    padding-bottom: 24px;
+
+}
+
+.accordion__summary {
+    list-style: none;
+
+    display: block;
     width: 158px;
     height: 24px;
     font-family: 'Inter', serif;
@@ -21,21 +28,28 @@
     color: var(--black);
 }
 
-.item__text {
+.accordion__text {
+    display: block;
     margin: 0;
+    padding-top: 16px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-4);
-    padding: 16px 49px 32px 32px;
 }
 
-.item[open] {
-    min-height: 144px;
+.accordion__item[open] {
+    /**
+    Min-height for standard item
+     */
+    /*min-height: 144px;*/
+    padding-bottom: 32px;
+    padding-right: 48px;
+
 }
 
-.item__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+.accordion__summary::-webkit-details-marker {
     display: none;
 }

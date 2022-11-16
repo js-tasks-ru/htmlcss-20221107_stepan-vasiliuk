@@ -1,3 +1,5 @@
+@import "normalize.css";
+@import "../../03-lection1/02-accordion/accordion.css";
 @import '../fonts/fonts.css';
 
 :root {
