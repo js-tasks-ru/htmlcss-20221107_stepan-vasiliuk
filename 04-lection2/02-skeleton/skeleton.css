@@ -1,0 +1,50 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 24px 40px 32px 24px;
+    box-sizing: border-box;
+    border: 1px solid var(--grey-4);
+    border-radius: 8px;
+}
+
+.skeleton__top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.skeleton__placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.skeleton__icon {
+    width: 64px;
+    height: 64px;
+
+    background: var(--grey-3);
+    border-radius: 50%;
+}
+
+.skeleton__line {
+    height: 20px;
+    background: var(--skeleton-gradient);
+
+}
+
+.skeleton__line_small {
+    width: 33%;
+}
+
+.skeleton__line_middle {
+    width: 50%;
+}
+
+.skeleton__line_long {
+    width: 100%;
+}

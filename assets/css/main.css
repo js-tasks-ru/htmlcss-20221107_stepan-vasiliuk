@@ -9,6 +9,8 @@
 @import "../../components/preview/preview.css";
 @import "../../components/container/container.css";
 @import "../../04-lection2/01-histogram/histogram.css";
+@import "../../04-lection2/02-skeleton/skeleton.css";
+
 
 :root {
     --white: #ffffff;
