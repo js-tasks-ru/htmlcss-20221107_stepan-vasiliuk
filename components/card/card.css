@@ -2,23 +2,22 @@
     background: var(--white);
     border-radius: 12px;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    max-width: 350px;
     height: 367px;
-    flex: 1 0 30%;
-}
+    flex: 1 0 auto;
 
-.preview__card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding: 32px;
     align-items: center;
     box-sizing: border-box;
 }
 
-.card__text{
-    display: block;
+.preview__card {
+    width: calc(100% / 3 - 30px);
+}
 
+.card__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
