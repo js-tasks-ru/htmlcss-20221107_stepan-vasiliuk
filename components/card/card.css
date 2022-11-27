@@ -13,9 +13,6 @@
     box-sizing: border-box;
 }
 
-.preview__card {
-    width: calc(100% / 3 - 30px);
-}
 
 .card__text {
     font-family: 'Roboto';

@@ -10,3 +10,7 @@
     padding: 68px 5px 204px 5px;
     box-sizing: border-box;
 }
+
+.preview__card {
+    width: calc(100% / 3 - 30px);
+}
