@@ -7,11 +7,6 @@
 
 }
 
-/*.wrapper {*/
-/*    padding-top: 100px;*/
-/*    text-align: center;*/
-/*}*/
-
 .tooltip__bubble {
 
     background: var(--blue-1);
@@ -30,7 +25,8 @@
     color: var(--grey-3);
     white-space: nowrap;
     bottom: calc(100% + 6px);
-    left: -200%;
+    left: 50%;
+    transform: translateX(-50%);
     display: none;
 }
 
