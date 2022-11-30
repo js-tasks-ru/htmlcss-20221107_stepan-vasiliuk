@@ -10,17 +10,12 @@
     padding: 28px 30px 40px 26px;
 
     width: 100%;
-    /*padding-bottom: 114%;*/
     position: relative;
 
-    /*height: 324px;*/
-    /*width: 304px;*/
 }
 
 .calendar__inner {
-    /*height: 100%;*/
     position: absolute;
-    /*padding-bottom: 100%;*/
     top: 0;
     left: 0;
     bottom: 0;
@@ -38,7 +33,7 @@
     padding-bottom: 100%;
 }
 
-.calendar__title{
+.calendar__title {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
@@ -57,8 +52,6 @@
     line-height: 20px;
     justify-content: center;
     align-items: center;
-    /*text-align: center;*/
-
 
     color: #334D6E;
 }
@@ -76,12 +69,12 @@
 
 }
 
-.calendar__item_active{
+.calendar__item_active {
     background: var(--blue-1);
     color: var(--white);
 }
 
-.calendar__item_between-active{
+.calendar__item_between-active {
     background: #A0B1F5;
     opacity: 0.2;
 }
