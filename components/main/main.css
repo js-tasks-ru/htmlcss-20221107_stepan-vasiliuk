@@ -1,0 +1,13 @@
+.main {
+    grid-area: main;
+    padding-top: 36px;
+
+    background: #F9FAFC;
+}
+
+.main__inner {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+}

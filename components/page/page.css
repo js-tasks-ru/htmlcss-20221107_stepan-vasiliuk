@@ -1,7 +1,10 @@
 .page {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_inner {
     height: 100%;
-    /*!*display: flex;*!*/
-    /*!*flex-direction: column;*!*/
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "header"
@@ -11,72 +14,6 @@
 
 .page__header {
     grid-area: header;
-}
-
-.main {
-    grid-area: main;
-    padding-top: 36px;
-
-    background: #F9FAFC;
-}
-
-.main__inner {
-    flex-grow: 1;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 56px;
-}
-
-.menu {
-    width: 229px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.menu__title {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #000000;
-}
-
-.menu__items {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.menu__item {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: var(--black);
-}
-
-.menu__item_active {
-    color: #D84910;
-}
-
-.component {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.component__name {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 38px;
-
-    color: #495057;
-
 }
 
 .page__footer {
