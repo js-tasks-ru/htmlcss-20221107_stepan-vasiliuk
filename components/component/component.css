@@ -1,0 +1,16 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.component__name {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #495057;
+
+}
