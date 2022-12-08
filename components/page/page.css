@@ -16,6 +16,10 @@
     grid-area: header;
 }
 
+.main {
+    grid-area: main;
+}
+
 .page__footer {
     grid-area: footer;
 }
