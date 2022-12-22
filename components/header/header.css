@@ -1,6 +1,6 @@
 .header {
     background: var(--white);
-    padding: 96px 0 77px;
+    padding: 25px 0 25px;
 }
 
 .header__title {
@@ -13,4 +13,31 @@
 
     color: var(--black);
 
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo svg {
+    stroke: var(--grey-5);
+    fill: var(--black);
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 69px 16px;
+    }
+
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-5);
+    }
+
+    .header__menu {
+        justify-content: center;
+    }
 }
