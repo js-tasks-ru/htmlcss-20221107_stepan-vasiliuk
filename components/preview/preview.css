@@ -3,14 +3,30 @@
 }
 
 .preview__cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*gap: 30px;*/
 
+    /*padding: 68px 5px 204px 5px;*/
+    /*box-sizing: border-box;*/
+    display: grid;
+    flex-wrap: wrap;
+    grid-gap: 30px;
     padding: 68px 5px 204px 5px;
     box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-rows: repeat(auto-fill, minmax(230px, auto));*/
+}
+
+@media screen and (max-width: 767px) {
+    .preview__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto));
+        grid-gap: 16px;
+    }
+
 }
 
 .preview__card {
-    width: calc(100% / 3 - 30px);
+    width: 100%;
 }
